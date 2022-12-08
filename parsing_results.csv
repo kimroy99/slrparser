@@ -1,0 +1,5 @@
+step,stack,symbols,input,action
+,STACK,SYMBOLS,INPUT,ACTION
+(1),0,,x = x $,shift
+(2),0 1, x,= x $,reduce by V -> x
+(3),0 4, V,= x $,"ERROR: shift-reduce conflict at state 4, symbol ="
